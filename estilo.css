@@ -1,0 +1,139 @@
+
+body{
+margin: 0px;
+font-family: 'Oxygen', sans-serif;
+line-height: 2;
+}
+
+nav{
+position: absolute;
+width: 100%;
+top: 0px;
+margin: 0px;
+height: 20px;
+padding-top: 30px;
+padding-bottom: 40px;
+background: linear-gradient(to right, #070719,#0B243B);
+background-color: #070719;
+color: #fff;
+text-align: right;
+}
+
+nav a{
+margin-right: 25px;
+text-decoration: none;
+color: #fff;
+}
+
+.barra-superior{
+display: none;
+}
+
+.logo-nav{
+position: absolute;	
+top: 20px; 	
+left: 25px;
+width: 150px;	
+}
+
+.logo-barra{
+display: none;
+}
+
+section{
+max-width: 600px;
+margin: auto;
+padding: 15px;
+text-align: justify;
+margin-top: 130px;
+}
+
+
+footer{
+text-align: center;
+padding: 100px;
+margin-top: 50px;
+background: linear-gradient(to right, #070719,#0B243B);
+background-color: #070719;
+color: #fff;
+}
+
+
+@media only screen and (max-width:700px) {
+.barra-superior{
+display: block;
+font-family: 'Oxygen', sans-serif;
+padding-top: 18px;
+padding-bottom: 18px;
+padding-left: 2px;
+background: linear-gradient(to right, #070719,#0B243B);
+background-color: #0B243B;
+color: #fff;
+position: fixed;
+top: 0px;
+width: 100%;
+}
+
+.botao-menu{
+cursor: pointer;
+padding: 10px 20px 10px 20px;
+border-radius: 3px;
+}
+
+.botao-menu:hover{
+background-color: #e6e6e6;
+color: #000;
+}
+
+nav{
+position: fixed;
+top: 56px;
+height: 0px;
+overflow: hidden;
+padding: 0px;
+text-align: left;
+background-color: #0B243B;
+
+}
+
+nav span{
+display: block;
+padding:  17px 0px 15px 27px;
+margin: 0px;
+}
+nav a{
+margin: 0px;
+color: #fff;
+}
+
+nav span:hover{
+background-color: #e6e6e6;
+color: #000;
+}
+
+.logo-nav{
+display: none;	
+}
+
+.logo-barra{
+display: inline-block;
+position: fixed;	
+top: 20px; 	
+right: 25px;
+width: 100px;	
+}
+
+
+section {
+margin-top: 60px;
+}
+
+footer{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+}
+
+
+

@@ -1,0 +1,201 @@
+body{
+font-family: sans-serif;
+margin: 0px
+}
+
+header{
+position: fixed;
+top: 0px;
+width: 100%;
+background-color: #0174DF;
+color: #fff;
+padding-top: 25px;
+padding-bottom: 25px;
+font-family: 'Varela Round', sans-serif;
+z-index: 1;
+text-transform: uppercase;
+}
+
+a{
+text-decoration: none;
+}
+
+h1,h2{
+    font-family: 'Oxygen', sans-serif;
+}
+
+a:visited{
+color: blue;
+}
+
+p{
+text-align: justify;
+line-height: 2;
+margin: 40px 0px;
+}
+
+ul{
+line-height: 2;
+ }
+
+nav{
+position: fixed;
+width: 20%;
+height: 90%;
+left: 0px;
+top:70px;
+font-family: 'Oxygen', sans-serif;
+overflow-y: auto;
+overflow-x: hidden;
+z-index: 1;
+background-color: #fff;
+}
+
+nav div{
+width: 100%;
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 10px;
+margin-top: 0px;
+}
+
+.titulo{
+padding-left: 10px;
+
+}
+
+nav div:hover{
+background-color: rgba(0,0,0,0.5);
+color:#fff;
+}
+section{
+width: 76%;
+margin: auto;
+padding-left: 22%;
+padding-right: 2%;
+padding-top: 80px;
+padding-bottom: 30px;
+}
+
+section figure{
+margin: 40px 0px;
+}
+
+section img{
+display: block;
+margin: auto;
+max-width: 350px;
+}
+
+section figcaption{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.botao{
+display: block;
+width: 200px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 5%;
+padding-right: 5%;
+text-decoration: none;
+text-align: center;
+color: #fff;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-right: -5px;
+margin-left: 5px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+
+
+.botao-menu{
+background-color: #0174DF;
+}
+
+.botao-descricao{
+background-color: #585858;
+}
+
+#menu{
+display:none;
+}
+
+
+.destaque{
+padding: 10px; 
+background-color: #CEF6CE;
+}
+.descricao{
+display: none;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted blue;
+    color: blue;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color:#0174DF;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.solucao{
+background-color: #D8D8D8;
+padding: 20px;
+}
+
+@media only screen and (max-width:700px) {
+
+nav{
+display: none;
+width: 270px;
+}
+
+.barra{
+display: none;
+}
+
+#menu{
+display: inline;
+cursor: pointer;
+}
+
+section{
+width: 90%;
+margin: auto;
+padding-left: 0px;
+}
